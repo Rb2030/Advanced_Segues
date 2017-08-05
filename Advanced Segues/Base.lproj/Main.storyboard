@@ -57,10 +57,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="KDJ-ru-Bnx" kind="show" id="tqf-4Z-4ub"/>
+                                            <segue destination="KDJ-ru-Bnx" kind="show" id="7jD-vs-EDC"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="PZD-dP-sab"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="7aA-9y-QhP"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -87,7 +91,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Jump to First View"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="X0P-Ne-V6W"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="" id="3yI-uh-ex7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -100,6 +104,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6Vf-Et-Ycp"/>
+        <segue reference="7jD-vs-EDC"/>
     </inferredMetricsTieBreakers>
 </document>
